@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "geomap-block/geomap-block",
+  "version": "1.0.1",
+  "title": "Geomap Block",
+  "category": "widgets",
+  "description": "A customizable Geomap Block for adding interactive and stylish Google Map to your content.",
+  "example": {},
+  "supports": {
+    "html": false,
+    "anchor": false,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "customClassName": false
+  },
+  "textdomain": "geomap-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

@@ -1,0 +1,21 @@
+{
+	"name": "geomap-block",
+	"version": "1.0.0",
+	"description": "A WordPress plugin that adds a simple Google Map block to the block editor without requiring an API key.",
+	"author": "Noruzzaman",
+	"license": "GPL-2.0-or-later",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"build:production": "wp-scripts build --mode=production",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^26.12.0"
+	}
+}
